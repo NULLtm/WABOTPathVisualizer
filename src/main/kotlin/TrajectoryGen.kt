@@ -38,6 +38,7 @@ object TrajectoryGen {
             .lineTo(Vector2d(50.0, -30.0), SplineInterpolator((-90.0).toRadians, (-90.0).toRadians))
             .lineTo(Vector2d(50.0, -40.0))
             .splineTo(Pose2d(40.0, -60.0, (180.0).toRadians))
+            //.addMarker(40.0, -60.0, (180.0).toRadians)
         // weird reversed profiles
         // builder
              //.setReversed(true)
